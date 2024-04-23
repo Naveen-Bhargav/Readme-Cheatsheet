@@ -28,6 +28,11 @@
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 ### Fenced code block
 ```
 {
@@ -39,7 +44,19 @@
 ### Footnote
 Here's a sentence with a footnote. [^1]
 
-[^1]: This is the footnote.
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+    
+
 ### Heading ID
 ### My Great Heading {#custom-id}
 ### Defination List
@@ -55,8 +72,13 @@ term
 That is so funny! :joy:
 ### highlight
 I need to highlight these ==very important words==.
+I need to highlight these <mark>very important words</mark>.
 ### Subscript
 H~2~O
+H<sub>2</sub>O
 ### Superscript
 X^2^
+X<sup>2</sup>
+### Disabling Automatic URL Linking
+`http://www.example.com`
     
