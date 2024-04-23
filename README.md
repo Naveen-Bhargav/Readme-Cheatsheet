@@ -1,7 +1,9 @@
 ### Markdown Cheatsheet
 ## Heading
 # Heading
+# Bold Text
 **bold text**
+# Italic text
 *Italic text*
 # Block Quote
 > This is block Quote
@@ -16,4 +18,6 @@
 - Thoird item
 # Code
 ` print("This is the way to write code")`
+# Horizontal line
+--- this is horizontal line ---
     
