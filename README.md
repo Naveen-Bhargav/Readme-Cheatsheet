@@ -1,23 +1,25 @@
-### Markdown Cheatsheet
-## Heading
-# Heading
-# Bold Text
+# Markdown Cheatsheet
+ 
+### Bold Text
 **bold text**
-# Italic text
+### Italic text
 *Italic text*
-# Block Quote
+### Block Quote
 > This is block Quote
 > This is block quote second statement
-# Ordered list
+### Ordered list
 1. First Item
 2. Second item
 3. Third item
-# Unordered List
+### Unordered List
 - First Item
 - Second Item
 - Thoird item
-# Code
+### Code
 ` print("This is the way to write code")`
-# Horizontal line
+### Horizontal line
 --- this is horizontal line ---
+### Link
+[title] (www.google.com)
+
     
